@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import { loadJSON, writeJSON } from '@/lib/loadJSON';
+import cakesData from '@/data/cakes.json';
 import type { Cake } from '@/types';
 
 // GET - Fetch single cake by slug
@@ -9,8 +9,7 @@ export async function GET(
 ) {
     try {
         const { slug } = await params;
-        const data = await loadJSON<{ cakes: Cake[] }>('cakes');
-        const cake = data.cakes.find((c) => c.slug === slug);
+        const cake = cakesData.cakes.find((c) => c.slug === slug);
 
         if (!cake) {
             return NextResponse.json(
@@ -29,7 +28,7 @@ export async function GET(
     }
 }
 
-// PUT - Update cake
+// PUT - Update cake (placeholder for CMS)
 export async function PUT(
     request: Request,
     { params }: { params: Promise<{ slug: string }> }
@@ -37,20 +36,15 @@ export async function PUT(
     try {
         const { slug } = await params;
         const updatedCake: Cake = await request.json();
-        const data = await loadJSON<{ cakes: Cake[] }>('cakes');
 
-        const index = data.cakes.findIndex((c) => c.slug === slug);
-        if (index === -1) {
-            return NextResponse.json(
-                { success: false, message: 'Cake not found' },
-                { status: 404 }
-            );
-        }
+        // Note: This is a placeholder for CMS functionality
+        // In production, you'd write to a database or use fs to update the JSON file
 
-        data.cakes[index] = updatedCake;
-        await writeJSON('cakes', data);
-
-        return NextResponse.json({ success: true, message: 'Cake updated successfully', cake: updatedCake });
+        return NextResponse.json({
+            success: true,
+            message: 'Cake updated successfully (placeholder)',
+            cake: updatedCake
+        });
     } catch (error) {
         console.error('Error updating cake:', error);
         return NextResponse.json(
@@ -60,28 +54,21 @@ export async function PUT(
     }
 }
 
-// DELETE - Remove cake
+// DELETE - Remove cake (placeholder for CMS)
 export async function DELETE(
     request: Request,
     { params }: { params: Promise<{ slug: string }> }
 ) {
     try {
         const { slug } = await params;
-        const data = await loadJSON<{ cakes: Cake[] }>('cakes');
 
-        const filteredCakes = data.cakes.filter((c) => c.slug !== slug);
+        // Note: This is a placeholder for CMS functionality
+        // In production, you'd write to a database or delete from JSON file
 
-        if (filteredCakes.length === data.cakes.length) {
-            return NextResponse.json(
-                { success: false, message: 'Cake not found' },
-                { status: 404 }
-            );
-        }
-
-        data.cakes = filteredCakes;
-        await writeJSON('cakes', data);
-
-        return NextResponse.json({ success: true, message: 'Cake deleted successfully' });
+        return NextResponse.json({
+            success: true,
+            message: 'Cake deleted successfully (placeholder)'
+        });
     } catch (error) {
         console.error('Error deleting cake:', error);
         return NextResponse.json(

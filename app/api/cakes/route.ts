@@ -1,12 +1,11 @@
 import { NextResponse } from 'next/server';
-import { loadJSON, writeJSON } from '@/lib/loadJSON';
+import cakesData from '@/data/cakes.json';
 import type { Cake } from '@/types';
 
 // GET - Fetch all cakes
 export async function GET() {
     try {
-        const data = await loadJSON<{ cakes: Cake[] }>('cakes');
-        return NextResponse.json({ success: true, cakes: data.cakes });
+        return NextResponse.json({ success: true, cakes: cakesData.cakes });
     } catch (error) {
         console.error('Error fetching cakes:', error);
         return NextResponse.json(
@@ -16,20 +15,23 @@ export async function GET() {
     }
 }
 
-// POST - Add new cake (CMS ready)
+// POST - Add new cake (for future CMS)
 export async function POST(request: Request) {
     try {
         const newCake: Cake = await request.json();
-        const data = await loadJSON<{ cakes: Cake[] }>('cakes');
 
-        data.cakes.push(newCake);
-        await writeJSON('cakes', data);
+        // Note: This is a placeholder for CMS functionality
+        // In production, you'd write to a database or use fs to update the JSON file
 
-        return NextResponse.json({ success: true, message: 'Cake added successfully', cake: newCake });
+        return NextResponse.json({
+            success: true,
+            message: 'Cake added successfully (placeholder)',
+            cake: newCake
+        });
     } catch (error) {
         console.error('Error adding cake:', error);
         return NextResponse.json(
-            { success: false, message: 'Failed to add cake ' },
+            { success: false, message: 'Failed to add cake' },
             { status: 500 }
         );
     }
