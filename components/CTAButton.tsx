@@ -1,7 +1,8 @@
 'use client';
 
 import { useModal } from './GlobalModal';
-import { MessageCircle, Phone, ShoppingCart } from 'lucide-react';
+import { Phone, ShoppingCart } from 'lucide-react';
+import { FaWhatsapp } from 'react-icons/fa';
 
 interface CTAButtonProps {
     label?: string;
@@ -22,23 +23,24 @@ export default function CTAButton({
 
     const handleClick = () => {
         if (variant === 'whatsapp') {
-            const phone = process.env.NEXT_PUBLIC_WHATSAPP || '+919345734680';
+            const phone = process.env.NEXT_PUBLIC_WHATSAPP || '+91 90038 17379';
             const message = encodeURIComponent('Hi! I would like to order a cake from Sabu Cakes. Can you help me?');
             window.open(`https://wa.me/${phone.replace(/[^0-9]/g, '')}?text=${message}`, '_blank');
         } else if (variant === 'call') {
-            const phone = process.env.NEXT_PUBLIC_PHONE || '+919345734680';
-            window.open(`tel:${phone}`, '_self');
+            const phone = process.env.NEXT_PUBLIC_PHONE || '+91 90038 17379';
+            window.open(`tel:${phone.replace(/\s/g, '')}`, '_self');
         } else {
             open(modalType);
         }
     };
 
-    const IconComponent = {
-        whatsapp: MessageCircle,
+    const IconComponent: any = {
+        whatsapp: FaWhatsapp,
         phone: Phone,
         cart: ShoppingCart,
         none: null,
     }[icon];
+
 
     return (
         <button

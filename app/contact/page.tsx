@@ -41,7 +41,7 @@ export default function ContactPage() {
                                         <div className="flex-1">
                                             <h3 className="font-bold text-lg mb-1">Phone</h3>
                                             <a href="tel:+919345734680" className="text-primary hover:underline">
-                                                +91 93457 34680
+                                                +91 90038 17379
                                             </a>
                                             <p className="text-sm text-gray-500 mt-1">Call or WhatsApp anytime!</p>
                                         </div>

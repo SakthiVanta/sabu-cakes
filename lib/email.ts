@@ -5,27 +5,27 @@ import type { OrderFormData, CustomCakeFormData, ContactFormData } from './valid
 type EmailType = 'order' | 'custom' | 'contact';
 
 interface EmailConfig {
-    to: string;
-    subject: string;
-    html: string;
+  to: string;
+  subject: string;
+  html: string;
 }
 
 // Create transporter using SMTP config
 const createTransporter = () => {
-    return nodemailer.createTransport({
-        host: process.env.SMTP_HOST,
-        port: parseInt(process.env.SMTP_PORT || '465'),
-        secure: process.env.SMTP_SECURE === 'true',
-        auth: {
-            user: process.env.SMTP_USER,
-            pass: process.env.SMTP_PASS,
-        },
-    });
+  return nodemailer.createTransport({
+    host: process.env.SMTP_HOST,
+    port: parseInt(process.env.SMTP_PORT || '465'),
+    secure: process.env.SMTP_SECURE === 'true',
+    auth: {
+      user: process.env.SMTP_USER,
+      pass: process.env.SMTP_PASS,
+    },
+  });
 };
 
 // Generate HTML email template for order
 function generateOrderEmail(data: OrderFormData): string {
-    return `
+  return `
     <!DOCTYPE html>
     <html>
     <head>
@@ -108,7 +108,7 @@ function generateOrderEmail(data: OrderFormData): string {
         <div class="footer">
           <p><strong>Sabu Cakes by Sabarika</strong></p>
           <p>Fantasy Street, Ondipudur, Coimbatore</p>
-          <p>+91 93457 34680 | sakthi.vana@gmail.com</p>
+          <p>+91 90038 17379 | sakthi.vana@gmail.com</p>
           <p style="margin-top: 15px; color: #999;">Baked with love ❤️</p>
         </div>
       </div>
@@ -119,7 +119,7 @@ function generateOrderEmail(data: OrderFormData): string {
 
 // Generate HTML email template for custom cake
 function generateCustomCakeEmail(data: CustomCakeFormData): string {
-    return `
+  return `
     <!DOCTYPE html>
     <html>
     <head>
@@ -204,7 +204,7 @@ function generateCustomCakeEmail(data: CustomCakeFormData): string {
         <div class="footer">
           <p><strong>Sabu Cakes by Sabarika</strong></p>
           <p>Fantasy Street, Ondipudur, Coimbatore</p>
-          <p>+91 93457 34680 | sakthi.vana@gmail.com</p>
+          <p>+91 90038 17379 | sakthi.vana@gmail.com</p>
           <p style="margin-top: 15px; color: #999;">Baked with love ❤️</p>
         </div>
       </div>
@@ -215,7 +215,7 @@ function generateCustomCakeEmail(data: CustomCakeFormData): string {
 
 // Generate HTML email template for contact
 function generateContactEmail(data: ContactFormData): string {
-    return `
+  return `
     <!DOCTYPE html>
     <html>
     <head>
@@ -263,7 +263,7 @@ function generateContactEmail(data: ContactFormData): string {
         </div>
         <div class="footer">
           <p><strong>Sabu Cakes by Sabarika</strong></p>
-          <p>+91 93457 34680 | sakthi.vana@gmail.com</p>
+          <p>+91 90038 17379 | sakthi.vana@gmail.com</p>
         </div>
       </div>
     </body>
@@ -273,51 +273,51 @@ function generateContactEmail(data: ContactFormData): string {
 
 // Main send email function
 export async function sendEmail(
-    type: EmailType,
-    data: OrderFormData | CustomCakeFormData | ContactFormData
+  type: EmailType,
+  data: OrderFormData | CustomCakeFormData | ContactFormData
 ): Promise<{ success: boolean; message: string }> {
-    try {
-        const transporter = createTransporter();
+  try {
+    const transporter = createTransporter();
 
-        let emailConfig: EmailConfig;
+    let emailConfig: EmailConfig;
 
-        switch (type) {
-            case 'order':
-                emailConfig = {
-                    to: process.env.SMTP_USER || '',
-                    subject: `🍰 New Cake Order from ${(data as OrderFormData).customerName}`,
-                    html: generateOrderEmail(data as OrderFormData),
-                };
-                break;
+    switch (type) {
+      case 'order':
+        emailConfig = {
+          to: process.env.SMTP_USER || '',
+          subject: `🍰 New Cake Order from ${(data as OrderFormData).customerName}`,
+          html: generateOrderEmail(data as OrderFormData),
+        };
+        break;
 
-            case 'custom':
-                emailConfig = {
-                    to: process.env.SMTP_USER || '',
-                    subject: `🎨 Custom Cake Request from ${(data as CustomCakeFormData).customerName}`,
-                    html: generateCustomCakeEmail(data as CustomCakeFormData),
-                };
-                break;
+      case 'custom':
+        emailConfig = {
+          to: process.env.SMTP_USER || '',
+          subject: `🎨 Custom Cake Request from ${(data as CustomCakeFormData).customerName}`,
+          html: generateCustomCakeEmail(data as CustomCakeFormData),
+        };
+        break;
 
-            case 'contact':
-                emailConfig = {
-                    to: process.env.SMTP_USER || '',
-                    subject: `📧 Contact: ${(data as ContactFormData).subject}`,
-                    html: generateContactEmail(data as ContactFormData),
-                };
-                break;
+      case 'contact':
+        emailConfig = {
+          to: process.env.SMTP_USER || '',
+          subject: `📧 Contact: ${(data as ContactFormData).subject}`,
+          html: generateContactEmail(data as ContactFormData),
+        };
+        break;
 
-            default:
-                throw new Error('Invalid email type');
-        }
-
-        await transporter.sendMail({
-            from: process.env.SMTP_FROM,
-            ...emailConfig,
-        });
-
-        return { success: true, message: 'Email sent successfully!' };
-    } catch (error) {
-        console.error('Error sending email:', error);
-        return { success: false, message: 'Failed to send email. Please try again.' };
+      default:
+        throw new Error('Invalid email type');
     }
+
+    await transporter.sendMail({
+      from: process.env.SMTP_FROM,
+      ...emailConfig,
+    });
+
+    return { success: true, message: 'Email sent successfully!' };
+  } catch (error) {
+    console.error('Error sending email:', error);
+    return { success: false, message: 'Failed to send email. Please try again.' };
+  }
 }

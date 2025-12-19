@@ -27,7 +27,7 @@ export default function Hero() {
                     {/* CTAs */}
                     <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8 animate-fadeIn">
                         <CTAButton label="Order Your Cake" variant="primary" modalType="order" icon="cart" className="text-lg px-8 py-4" />
-                        <CTAButton label="WhatsApp Us" variant="whatsapp" icon="whatsapp" className="text-lg px-8 py-4 bg-white text-primary hover:bg-gray-100 border-0" />
+                        <CTAButton label="WhatsApp Us" variant="whatsapp" icon="whatsapp" className="text-lg px-8 py-4 bg-blue-300 text-primary hover:bg-gray-100 border-0" />
                     </div>
 
                     {/* Features */}
