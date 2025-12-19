@@ -1,0 +1,94 @@
+{
+    "testimonials": [
+        {
+            "id": "1",
+            "customerName": "Priya Krishnan",
+            "rating": 5,
+            "date": "2024-12-10",
+            "cakeOrdered": "Black Forest Cake",
+            "review": "Absolutely delicious! The Black Forest cake was fresh, moist, and perfectly balanced. Sabarika's attention to detail is incredible. Will definitely order again!",
+            "location": "RS Puram"
+        },
+        {
+            "id": "2",
+            "customerName": "Raj Kumar",
+            "rating": 5,
+            "date": "2024-12-08",
+            "cakeOrdered": "Chocolate Truffle",
+            "review": "Best chocolate truffle cake I've ever had! Rich, decadent, and not too sweet. Perfect for my wife's birthday. Thank you Sabu Cakes!",
+            "location": "Gandhipuram"
+        },
+        {
+            "id": "3",
+            "customerName": "Deepa Ramesh",
+            "rating": 5,
+            "date": "2024-12-05",
+            "cakeOrdered": "Rasmalai Cake",
+            "review": "Wow! The Rasmalai cake is such a unique and delicious fusion. My family loved it. Fresh ingredients and beautiful presentation!",
+            "location": "Saibaba Colony"
+        },
+        {
+            "id": "4",
+            "customerName": "Arun Selvam",
+            "rating": 5,
+            "date": "2024-12-03",
+            "cakeOrdered": "Custom Birthday Cake",
+            "review": "Sabarika created exactly what I envisioned for my daughter's birthday. The cake looked stunning and tasted even better! Highly recommended!",
+            "location": "Peelamedu"
+        },
+        {
+            "id": "5",
+            "customerName": "Lakshmi Venkat",
+            "rating": 5,
+            "date": "2024-11-28",
+            "cakeOrdered": "Tiramisu",
+            "review": "Authentic tiramisu taste! Coffee lovers will adore this. Fresh, creamy, and the perfect balance of sweetness. Amazing quality!",
+            "location": "Ondipudur"
+        },
+        {
+            "id": "6",
+            "customerName": "Karthik Mohan",
+            "rating": 5,
+            "date": "2024-11-25",
+            "cakeOrdered": "Blueberry Cake",
+            "review": "Fresh blueberries in every bite! The cake was so moist and flavorful. Great service and timely delivery. Will order again for sure!",
+            "location": "Singanallur"
+        },
+        {
+            "id": "7",
+            "customerName": "Meena Suresh",
+            "rating": 5,
+            "date": "2024-11-20",
+            "cakeOrdered": "Plum Cake",
+            "review": "Ordered for Christmas and everyone loved it! Rich fruit cake with perfect spices. Traditional taste with a homemade touch!",
+            "location": "Ganapathy"
+        },
+        {
+            "id": "8",
+            "customerName": "Vijay Anand",
+            "rating": 5,
+            "date": "2024-11-15",
+            "cakeOrdered": "White Forest Cake",
+            "review": "Light, elegant, and absolutely delicious! Perfect for our anniversary. Sabarika is a true artist. Thank you!",
+            "location": "Vadavalli"
+        },
+        {
+            "id": "9",
+            "customerName": "Nithya Prakash",
+            "rating": 5,
+            "date": "2024-11-10",
+            "cakeOrdered": "Cup Cakes",
+            "review": "The cupcakes were a hit at my son's birthday party! Beautifully decorated, fresh, and kids loved the flavors. Highly recommend!",
+            "location": "Town Hall"
+        },
+        {
+            "id": "10",
+            "customerName": "Senthil Kumar",
+            "rating": 5,
+            "date": "2024-11-05",
+            "cakeOrdered": "Gulab Jamun Cake",
+            "review": "What an innovative cake! Gulab jamun in cake form - genius! Tastes amazing and very unique. Perfect for Indian celebrations!",
+            "location": "Kuniyamuthur"
+        }
+    ]
+}

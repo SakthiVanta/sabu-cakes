@@ -1,0 +1,77 @@
+{
+    "home": {
+        "title": "Sabu Cakes - Homemade Fresh Cakes in Coimbatore by Sabarika",
+        "description": "Order fresh homemade cakes in Coimbatore. Brownies, Black Forest, Rasmalai, Truffle, Tiramisu & 15+ varieties. Baked by Sabarika in Ondipudur. Same-day delivery available!",
+        "keywords": [
+            "homemade cakes coimbatore",
+            "custom cakes ondipudur",
+            "birthday cakes coimbatore",
+            "sabu cakes",
+            "sabarika cakes",
+            "fresh cakes coimbatore"
+        ],
+        "openGraph": {
+            "title": "Sabu Cakes - Fresh Homemade Cakes in Coimbatore",
+            "description": "Order delicious homemade cakes baked fresh by Sabarika. 18+ varieties available!",
+            "image": "/images/og-home.jpg"
+        }
+    },
+    "cakes": {
+        "title": "All Cakes Menu | Sabu Cakes Coimbatore",
+        "description": "Browse our complete menu of 18+ fresh homemade cakes. Chocolate, Vanilla, Fruit cakes, Indian fusion & more. Order now in Coimbatore!",
+        "keywords": [
+            "cakes menu coimbatore",
+            "cake varieties",
+            "order cakes online coimbatore"
+        ],
+        "openGraph": {
+            "title": "Complete Cakes Menu - Sabu Cakes",
+            "description": "Explore 18+ varieties of fresh homemade cakes",
+            "image": "/images/og-cakes.jpg"
+        }
+    },
+    "about": {
+        "title": "About Sabarika - Young Entrepreneur Chef | Sabu Cakes",
+        "description": "Meet Sabarika, 23-year-old entrepreneur chef behind Sabu Cakes. Learn about her passion for baking and commitment to quality homemade cakes in Coimbatore.",
+        "keywords": [
+            "sabarika chef",
+            "sabu cakes owner",
+            "coimbatore baker",
+            "young entrepreneur"
+        ],
+        "openGraph": {
+            "title": "About Sabarika - Sabu Cakes",
+            "description": "Passionate young chef bringing homemade love to every cake",
+            "image": "/images/og-about.jpg"
+        }
+    },
+    "contact": {
+        "title": "Contact & Order | Sabu Cakes Coimbatore - Ondipudur",
+        "description": "Order cakes from Sabu Cakes, Ondipudur, Coimbatore. Call/WhatsApp +91 93457 34680. Open daily 9 AM - 9 PM. Same-day delivery available!",
+        "keywords": [
+            "order cakes coimbatore",
+            "sabu cakes contact",
+            "ondipudur bakery",
+            "cake delivery coimbatore"
+        ],
+        "openGraph": {
+            "title": "Contact & Order - Sabu Cakes",
+            "description": "Get in touch to order your perfect cake today!",
+            "image": "/images/og-contact.jpg"
+        }
+    },
+    "faqs": {
+        "title": "FAQs - Frequently Asked Questions | Sabu Cakes",
+        "description": "Get answers to common questions about ordering, delivery, customization, ingredients, and pricing for Sabu Cakes in Coimbatore.",
+        "keywords": [
+            "cake order questions",
+            "sabu cakes faq",
+            "custom cake coimbatore"
+        ],
+        "openGraph": {
+            "title": "FAQs - Sabu Cakes",
+            "description": "Everything you need to know about ordering",
+            "image": "/images/og-faqs.jpg"
+        }
+    }
+}

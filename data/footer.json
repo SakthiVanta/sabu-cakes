@@ -1,0 +1,105 @@
+{
+    "sections": [
+        {
+            "title": "Quick Links",
+            "links": [
+                {
+                    "label": "Home",
+                    "url": "/"
+                },
+                {
+                    "label": "All Cakes",
+                    "url": "/cakes"
+                },
+                {
+                    "label": "About Sabarika",
+                    "url": "/about"
+                },
+                {
+                    "label": "Contact Us",
+                    "url": "/contact"
+                },
+                {
+                    "label": "FAQs",
+                    "url": "/faqs"
+                }
+            ]
+        },
+        {
+            "title": "Popular Cakes",
+            "links": [
+                {
+                    "label": "Black Forest",
+                    "url": "/cakes/black-forest-cake"
+                },
+                {
+                    "label": "Chocolate Truffle",
+                    "url": "/cakes/choco-truffle-cake"
+                },
+                {
+                    "label": "Rasmalai Cake",
+                    "url": "/cakes/rasmalai-cake"
+                },
+                {
+                    "label": "Tiramisu",
+                    "url": "/cakes/tiramisu"
+                },
+                {
+                    "label": "Blueberry Cake",
+                    "url": "/cakes/blueberry-cake"
+                }
+            ]
+        },
+        {
+            "title": "Customer Care",
+            "links": [
+                {
+                    "label": "Order Process",
+                    "url": "/faqs"
+                },
+                {
+                    "label": "Delivery Info",
+                    "url": "/faqs"
+                },
+                {
+                    "label": "Custom Cakes",
+                    "url": "/faqs"
+                },
+                {
+                    "label": "Pricing",
+                    "url": "/faqs"
+                }
+            ]
+        },
+        {
+            "title": "Legal",
+            "links": [
+                {
+                    "label": "Privacy Policy",
+                    "url": "/privacy"
+                },
+                {
+                    "label": "Terms & Conditions",
+                    "url": "/terms"
+                }
+            ]
+        }
+    ],
+    "contactInfo": {
+        "address": "Fantasy Street, Ondipudur, Coimbatore, Tamil Nadu",
+        "phone": "+91 93457 34680",
+        "email": "sakthi.vana@gmail.com",
+        "hours": "Open Daily: 9 AM - 9 PM"
+    },
+    "social": {
+        "instagram": "https://instagram.com/sabucakes",
+        "facebook": "https://facebook.com/sabucakes"
+    },
+    "newsletter": {
+        "title": "Sweet Updates!",
+        "description": "Subscribe to get updates on new flavors and special offers",
+        "placeholder": "Enter your email",
+        "buttonLabel": "Subscribe"
+    },
+    "copyright": "© 2024 Sabu Cakes by Sabarika. All rights reserved. Made with ❤️ in Coimbatore."
+}

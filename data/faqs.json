@@ -1,0 +1,112 @@
+{
+    "faqs": [
+        {
+            "id": "1",
+            "category": "Ordering",
+            "question": "How do I order a cake from Sabu Cakes?",
+            "answer": "You can order via WhatsApp at +91 93457 34680, call us directly, or fill out our online order form. Just let us know which cake you'd like, the weight, delivery date, and any special requirements!"
+        },
+        {
+            "id": "2",
+            "category": "Ordering",
+            "question": "How much advance notice do you need for an order?",
+            "answer": "We recommend ordering at least 24 hours in advance to ensure availability. For custom or specialty cakes, please order 2-3 days ahead. However, we do accept same-day orders subject to availability - just call us!"
+        },
+        {
+            "id": "3",
+            "category": "Ordering",
+            "question": "What is your minimum order quantity?",
+            "answer": "Our minimum order is 0.5 KG (half kg) for all cakes. We also offer 1 KG and 2 KG sizes for most cakes."
+        },
+        {
+            "id": "4",
+            "category": "Delivery",
+            "question": "Do you deliver cakes? What areas do you cover?",
+            "answer": "Yes! We deliver across Coimbatore city including RS Puram, Gandhipuram, Saibaba Colony, Peelamedu, Singanallur, and surrounding areas. Delivery charges may apply based on location."
+        },
+        {
+            "id": "5",
+            "category": "Delivery",
+            "question": "Can I get same-day delivery?",
+            "answer": "Yes, same-day delivery is available for orders placed before 12 PM, subject to availability. Please call us to confirm before placing your order."
+        },
+        {
+            "id": "6",
+            "category": "Delivery",
+            "question": "Is there a delivery charge?",
+            "answer": "Delivery charges range from ₹50-₹100 depending on the distance from Ondipudur. Orders above ₹1500 may get free delivery - ask us!"
+        },
+        {
+            "id": "7",
+            "category": "Customization",
+            "question": "Can I customize the cake design?",
+            "answer": "Absolutely! We love creating custom cakes based on your vision. Share your ideas, theme, colors, and any reference images. We'll work with you to create your dream cake!"
+        },
+        {
+            "id": "8",
+            "category": "Customization",
+            "question": "Can you write a custom message on the cake?",
+            "answer": "Yes! You can add any message you'd like on the cake at no extra charge. Just let us know the text when ordering."
+        },
+        {
+            "id": "9",
+            "category": "Customization",
+            "question": "Do you make eggless cakes?",
+            "answer": "Yes, we can make eggless versions of most of our cakes! Please mention your requirement when ordering. Note that some specialty cakes like Tiramisu may have limited eggless options."
+        },
+        {
+            "id": "10",
+            "category": "Ingredients",
+            "question": "What ingredients do you use?",
+            "answer": "We use only premium, fresh ingredients - real butter, fresh cream, quality chocolate, and fresh fruits. No artificial colors or preservatives. Everything is made from scratch!"
+        },
+        {
+            "id": "11",
+            "category": "Ingredients",
+            "question": "Are your cakes suitable for people with allergies?",
+            "answer": "Each cake listing shows common allergens (eggs, dairy, gluten, nuts). Please inform us of any specific allergies when ordering, and we'll do our best to accommodate or suggest suitable alternatives."
+        },
+        {
+            "id": "12",
+            "category": "Pricing",
+            "question": "What are your cake prices?",
+            "answer": "Prices vary by cake type and weight. Generally, cakes range from ₹350-₹650 for 0.5KG, ₹650-₹1200 for 1KG, and ₹1400-₹2300 for 2KG. Check individual cake pages for exact pricing or contact us!"
+        },
+        {
+            "id": "13",
+            "category": "Pricing",
+            "question": "Do custom cakes cost more?",
+            "answer": "Custom designs may have additional charges depending on complexity. Simple message and color customizations are free. For elaborate designs, we'll provide a quote after discussing your requirements."
+        },
+        {
+            "id": "14",
+            "category": "Pricing",
+            "question": "What payment methods do you accept?",
+            "answer": "We accept cash on delivery, UPI payments (Google Pay, PhonePe, Paytm), and bank transfers. Full or partial advance may be required for large or custom orders."
+        },
+        {
+            "id": "15",
+            "category": "General",
+            "question": "How long do your cakes stay fresh?",
+            "answer": "Our cakes are best consumed within 24 hours of delivery for optimal taste and freshness. They can be refrigerated and will stay fresh for up to 2-3 days."
+        },
+        {
+            "id": "16",
+            "category": "General",
+            "question": "Can I pick up my order instead of delivery?",
+            "answer": "Yes! You can pick up your order from our location in Ondipudur. This saves delivery charges too. Just let us know your preferred pickup time when ordering."
+        },
+        {
+            "id": "17",
+            "category": "General",
+            "question": "Do you cater for large events?",
+            "answer": "Yes! We handle orders for birthdays, anniversaries, weddings, and corporate events. For large orders (multiple cakes or serving 50+ people), please contact us at least a week in advance."
+        },
+        {
+            "id": "18",
+            "category": "General",
+            "question": "What makes Sabu Cakes special?",
+            "answer": "Every cake is freshly baked to order by Sabarika herself - no mass production! We use premium ingredients, offer unique Indian fusion flavors, and put love into every creation. You're getting truly homemade quality!"
+        }
+    ]
+}

@@ -1,0 +1,333 @@
+{
+    "orderForm": {
+        "title": "Order Your Delicious Cake",
+        "description": "Fill in your details and we'll get back to you shortly!",
+        "submitLabel": "Send Order Request",
+        "fields": [
+            {
+                "name": "customerName",
+                "label": "Your Name",
+                "type": "text",
+                "placeholder": "Enter your full name",
+                "required": true,
+                "validation": {
+                    "min": 2,
+                    "max": 50
+                }
+            },
+            {
+                "name": "phone",
+                "label": "Phone Number",
+                "type": "tel",
+                "placeholder": "+91 XXXXX XXXXX",
+                "required": true,
+                "validation": {
+                    "pattern": "^[+]?[0-9]{10,15}$"
+                }
+            },
+            {
+                "name": "email",
+                "label": "Email Address",
+                "type": "email",
+                "placeholder": "your@email.com",
+                "required": false
+            },
+            {
+                "name": "cakeName",
+                "label": "Select Cake",
+                "type": "select",
+                "required": true,
+                "source": "cakes",
+                "options": []
+            },
+            {
+                "name": "weight",
+                "label": "Cake Weight",
+                "type": "select",
+                "required": true,
+                "options": [
+                    {
+                        "value": "half_kg",
+                        "label": "0.5 KG"
+                    },
+                    {
+                        "value": "one_kg",
+                        "label": "1 KG"
+                    },
+                    {
+                        "value": "two_kg",
+                        "label": "2 KG"
+                    }
+                ]
+            },
+            {
+                "name": "deliveryDate",
+                "label": "Delivery Date",
+                "type": "text",
+                "placeholder": "DD/MM/YYYY",
+                "required": true
+            },
+            {
+                "name": "deliveryTime",
+                "label": "Preferred Delivery Time",
+                "type": "select",
+                "required": false,
+                "options": [
+                    {
+                        "value": "morning",
+                        "label": "Morning (9 AM - 12 PM)"
+                    },
+                    {
+                        "value": "afternoon",
+                        "label": "Afternoon (12 PM - 4 PM)"
+                    },
+                    {
+                        "value": "evening",
+                        "label": "Evening (4 PM - 8 PM)"
+                    }
+                ]
+            },
+            {
+                "name": "deliveryAddress",
+                "label": "Delivery Address in Coimbatore",
+                "type": "textarea",
+                "placeholder": "Enter your complete address",
+                "required": true,
+                "validation": {
+                    "min": 10,
+                    "max": 200
+                }
+            },
+            {
+                "name": "cakeMessage",
+                "label": "Message on Cake (Optional)",
+                "type": "text",
+                "placeholder": "E.g., Happy Birthday!",
+                "required": false,
+                "validation": {
+                    "max": 50
+                }
+            },
+            {
+                "name": "specialRequests",
+                "label": "Special Requests / Allergies",
+                "type": "textarea",
+                "placeholder": "Any special requirements, flavor preferences, or allergies to note?",
+                "required": false,
+                "validation": {
+                    "max": 300
+                }
+            }
+        ]
+    },
+    "customCakeForm": {
+        "title": "Custom Cake Request",
+        "description": "Tell us about your dream cake and we'll make it happen!",
+        "submitLabel": "Submit Custom Request",
+        "fields": [
+            {
+                "name": "customerName",
+                "label": "Your Name",
+                "type": "text",
+                "placeholder": "Enter your full name",
+                "required": true,
+                "validation": {
+                    "min": 2,
+                    "max": 50
+                }
+            },
+            {
+                "name": "phone",
+                "label": "Phone Number",
+                "type": "tel",
+                "placeholder": "+91 XXXXX XXXXX",
+                "required": true,
+                "validation": {
+                    "pattern": "^[+]?[0-9]{10,15}$"
+                }
+            },
+            {
+                "name": "email",
+                "label": "Email Address",
+                "type": "email",
+                "placeholder": "your@email.com",
+                "required": false
+            },
+            {
+                "name": "occasion",
+                "label": "Occasion",
+                "type": "select",
+                "required": true,
+                "options": [
+                    {
+                        "value": "birthday",
+                        "label": "Birthday"
+                    },
+                    {
+                        "value": "anniversary",
+                        "label": "Anniversary"
+                    },
+                    {
+                        "value": "wedding",
+                        "label": "Wedding"
+                    },
+                    {
+                        "value": "corporate",
+                        "label": "Corporate Event"
+                    },
+                    {
+                        "value": "other",
+                        "label": "Other Celebration"
+                    }
+                ]
+            },
+            {
+                "name": "servings",
+                "label": "Number of People to Serve",
+                "type": "select",
+                "required": true,
+                "options": [
+                    {
+                        "value": "10-20",
+                        "label": "10-20 people"
+                    },
+                    {
+                        "value": "20-30",
+                        "label": "20-30 people"
+                    },
+                    {
+                        "value": "30-50",
+                        "label": "30-50 people"
+                    },
+                    {
+                        "value": "50+",
+                        "label": "50+ people"
+                    }
+                ]
+            },
+            {
+                "name": "flavorPreference",
+                "label": "Flavor Preference",
+                "type": "text",
+                "placeholder": "E.g., Chocolate, Vanilla, Mixed",
+                "required": true
+            },
+            {
+                "name": "designDescription",
+                "label": "Design Description",
+                "type": "textarea",
+                "placeholder": "Describe your dream cake design, theme, colors, decorations, etc.",
+                "required": true,
+                "validation": {
+                    "min": 20,
+                    "max": 500
+                }
+            },
+            {
+                "name": "deliveryDate",
+                "label": "Delivery Date",
+                "type": "text",
+                "placeholder": "DD/MM/YYYY",
+                "required": true
+            },
+            {
+                "name": "budget",
+                "label": "Budget Range",
+                "type": "select",
+                "required": false,
+                "options": [
+                    {
+                        "value": "500-1000",
+                        "label": "₹500 - ₹1000"
+                    },
+                    {
+                        "value": "1000-2000",
+                        "label": "₹1000 - ₹2000"
+                    },
+                    {
+                        "value": "2000-5000",
+                        "label": "₹2000 - ₹5000"
+                    },
+                    {
+                        "value": "5000+",
+                        "label": "₹5000+"
+                    }
+                ]
+            },
+            {
+                "name": "referenceImages",
+                "label": "Reference Image URL (Optional)",
+                "type": "text",
+                "placeholder": "Paste a link to your reference image",
+                "required": false
+            },
+            {
+                "name": "additionalNotes",
+                "label": "Additional Notes",
+                "type": "textarea",
+                "placeholder": "Any other details we should know?",
+                "required": false,
+                "validation": {
+                    "max": 300
+                }
+            }
+        ]
+    },
+    "contactForm": {
+        "title": "Get In Touch",
+        "description": "Have questions? We'd love to hear from you!",
+        "submitLabel": "Send Message",
+        "fields": [
+            {
+                "name": "name",
+                "label": "Your Name",
+                "type": "text",
+                "placeholder": "Enter your name",
+                "required": true,
+                "validation": {
+                    "min": 2,
+                    "max": 50
+                }
+            },
+            {
+                "name": "phone",
+                "label": "Phone Number",
+                "type": "tel",
+                "placeholder": "+91 XXXXX XXXXX",
+                "required": true,
+                "validation": {
+                    "pattern": "^[+]?[0-9]{10,15}$"
+                }
+            },
+            {
+                "name": "email",
+                "label": "Email Address",
+                "type": "email",
+                "placeholder": "your@email.com",
+                "required": false
+            },
+            {
+                "name": "subject",
+                "label": "Subject",
+                "type": "text",
+                "placeholder": "What is this about?",
+                "required": true,
+                "validation": {
+                    "min": 5,
+                    "max": 100
+                }
+            },
+            {
+                "name": "message",
+                "label": "Your Message",
+                "type": "textarea",
+                "placeholder": "Tell us how we can help you...",
+                "required": true,
+                "validation": {
+                    "min": 10,
+                    "max": 500
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "title": "About Sabarika",
+    "subtitle": "The Heart & Soul Behind Sabu Cakes",
+    "sections": [
+        {
+            "heading": "A Passion Born from Love",
+            "content": "Hi! I'm Sabarika, a 23-year-old entrepreneur chef and the founder of Sabu Cakes. My journey into the world of baking started from my grandmother's kitchen, where I learned that the secret ingredient to any great cake is love. Today, I pour that same love into every cake I bake for you.",
+            "imageUrl": "/images/about/sabarika.jpg"
+        },
+        {
+            "heading": "Why Sabu Cakes is Different",
+            "content": "Every cake at Sabu Cakes is baked fresh to order - no pre-made, frozen, or day-old cakes. I personally oversee each creation, ensuring premium ingredients, perfect textures, and beautiful designs. From classic favorites to innovative Indian fusion cakes, I'm constantly experimenting to bring you unique flavors.",
+            "imageUrl": "/images/about/kitchen.jpg"
+        },
+        {
+            "heading": "Our Commitment to You",
+            "content": "When you order from Sabu Cakes, you're not just getting a cake - you're getting a piece of my heart. I understand that cakes are part of your special moments, and I'm honored to be a part of your celebrations. Quality, freshness, and your satisfaction are my top priorities.",
+            "imageUrl": "/images/about/commitment.jpg"
+        }
+    ],
+    "values": [
+        {
+            "title": "100% Fresh",
+            "description": "Every cake is baked fresh to order. No compromises on freshness!",
+            "icon": "Sparkles"
+        },
+        {
+            "title": "Premium Ingredients",
+            "description": "Only the finest ingredients go into our cakes - real butter, fresh cream, quality chocolate.",
+            "icon": "Award"
+        },
+        {
+            "title": "Handcrafted Love",
+            "description": "Each cake is personally crafted with attention to detail and lots of love.",
+            "icon": "Heart"
+        },
+        {
+            "title": "Custom Creations",
+            "description": "Your dream cake, your way. We love bringing your visions to life!",
+            "icon": "Palette"
+        }
+    ],
+    "journey": [
+        {
+            "year": "2022",
+            "milestone": "Started baking from my home kitchen in Ondipudur"
+        },
+        {
+            "year": "2023",
+            "milestone": "Served 100+ happy customers and expanded to 15+ cake varieties"
+        },
+        {
+            "year": "2024",
+            "milestone": "Introduced innovative Indian fusion cakes - Rasmalai & Gulab Jamun cakes"
+        }
+    ]
+}

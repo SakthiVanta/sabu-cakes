@@ -1,0 +1,39 @@
+{
+    "headline": "Fresh Homemade Cakes",
+    "subheadline": "Baked with Love by Sabarika in Coimbatore",
+    "description": "Experience the joy of authentic homemade cakes made with premium ingredients. From classic favorites to innovative fusion flavors - every cake tells a story!",
+    "ctaButtons": [
+        {
+            "label": "Order Your Cake",
+            "action": "modal",
+            "variant": "primary"
+        },
+        {
+            "label": "View All Cakes",
+            "action": "navigate",
+            "url": "/cakes",
+            "variant": "secondary"
+        }
+    ],
+    "backgroundGradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+    "features": [
+        "✨ 100% Homemade Quality",
+        "🎂 18+ Delicious Varieties",
+        "🚚 Same-Day Delivery in Coimbatore",
+        "💝 Custom Designs Available"
+    ],
+    "stats": [
+        {
+            "number": "500+",
+            "label": "Happy Customers"
+        },
+        {
+            "number": "18+",
+            "label": "Cake Varieties"
+        },
+        {
+            "number": "100%",
+            "label": "Fresh & Homemade"
+        }
+    ]
+}

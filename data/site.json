@@ -1,0 +1,31 @@
+{
+    "brand": "Sabu Cakes",
+    "tagline": "By Sabarika - Freshly Baked Homemade Cakes in Coimbatore",
+    "owner": {
+        "name": "Sabarika",
+        "age": 23,
+        "role": "Entrepreneur Chef & CEO",
+        "description": "A passionate young entrepreneur bringing homemade love to every cake. Each creation is handcrafted with premium ingredients and baked fresh to order."
+    },
+    "location": {
+        "address": "Fantasy Street, Ondipudur",
+        "city": "Coimbatore",
+        "state": "Tamil Nadu",
+        "area": "Ondipudur",
+        "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.4!2d76.9!3d11.0!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1"
+    },
+    "contact": {
+        "phone": "+919345734680",
+        "whatsapp": "+919345734680",
+        "email": "sakthi.vana@gmail.com"
+    },
+    "hours": {
+        "weekdays": "9:00 AM - 8:00 PM",
+        "weekends": "9:00 AM - 9:00 PM",
+        "closed": "None - We bake every day for you!"
+    },
+    "social": {
+        "instagram": "https://instagram.com/sabucakes",
+        "facebook": "https://facebook.com/sabucakes"
+    }
+}

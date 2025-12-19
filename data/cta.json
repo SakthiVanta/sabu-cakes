@@ -1,0 +1,30 @@
+{
+    "primary": {
+        "label": "Order Now",
+        "action": "modal",
+        "modalType": "order",
+        "icon": "ShoppingCart"
+    },
+    "secondary": {
+        "label": "Custom Cake Request",
+        "action": "modal",
+        "modalType": "custom",
+        "icon": "Cake"
+    },
+    "call": {
+        "label": "Call Now",
+        "action": "call",
+        "icon": "Phone"
+    },
+    "whatsapp": {
+        "label": "WhatsApp Us",
+        "message": "Hi! I would like to order a cake from Sabu Cakes. Can you help me?",
+        "icon": "MessageCircle"
+    },
+    "floating": {
+        "label": "Quick Order",
+        "action": "modal",
+        "modalType": "order",
+        "icon": "Zap"
+    }
+}

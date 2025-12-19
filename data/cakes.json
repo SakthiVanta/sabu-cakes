@@ -1,0 +1,801 @@
+{
+    "cakes": [
+        {
+            "id": "1",
+            "slug": "brownies",
+            "name": "Classic Brownies",
+            "description": "Rich, fudgy chocolate brownies with a perfect crackly top",
+            "detailedDescription": "Our signature brownies are made with premium dark chocolate and real butter. Each piece is dense, fudgy, and delivers an intense chocolate experience. Perfect for chocolate lovers!",
+            "price": {
+                "half_kg": 350,
+                "one_kg": 650,
+                "two_kg": 1200
+            },
+            "tags": [
+                "chocolate",
+                "bestseller",
+                "birthday"
+            ],
+            "category": "Brownies",
+            "ingredients": [
+                "Dark Chocolate",
+                "Butter",
+                "Eggs",
+                "Sugar",
+                "Flour",
+                "Vanilla"
+            ],
+            "allergens": [
+                "Eggs",
+                "Dairy",
+                "Gluten"
+            ],
+            "imageUrl": "/images/cakes/brownies.jpg",
+            "available": true,
+            "featured": true,
+            "customizable": false,
+            "seo": {
+                "title": "Classic Chocolate Brownies in Coimbatore | Sabu Cakes",
+                "description": "Order rich, fudgy homemade chocolate brownies in Coimbatore. Freshly baked by Sabarika with premium dark chocolate.",
+                "keywords": [
+                    "brownies coimbatore",
+                    "chocolate brownies",
+                    "homemade brownies ondipudur"
+                ]
+            }
+        },
+        {
+            "id": "2",
+            "slug": "black-forest-cake",
+            "name": "Black Forest Cake",
+            "description": "Rich chocolate sponge layered with fresh cream and cherries",
+            "detailedDescription": "A classic favorite! Moist chocolate sponge cake layered with whipped cream and cherry compote, topped with chocolate shavings and fresh cherries. A timeless celebration cake.",
+            "price": {
+                "half_kg": 450,
+                "one_kg": 850,
+                "two_kg": 1600
+            },
+            "tags": [
+                "chocolate",
+                "classic",
+                "birthday",
+                "celebration"
+            ],
+            "category": "Cakes",
+            "ingredients": [
+                "Chocolate Sponge",
+                "Fresh Cream",
+                "Cherries",
+                "Chocolate Shavings",
+                "Sugar Syrup"
+            ],
+            "allergens": [
+                "Eggs",
+                "Dairy",
+                "Gluten"
+            ],
+            "imageUrl": "/images/cakes/black-forest.jpg",
+            "available": true,
+            "featured": true,
+            "customizable": true,
+            "seo": {
+                "title": "Black Forest Cake in Coimbatore | Sabu Cakes",
+                "description": "Order fresh Black Forest Cake in Coimbatore. Chocolate sponge with cream and cherries, baked by Sabarika.",
+                "keywords": [
+                    "black forest cake coimbatore",
+                    "chocolate cherry cake",
+                    "birthday cake ondipudur"
+                ]
+            }
+        },
+        {
+            "id": "3",
+            "slug": "white-forest-cake",
+            "name": "White Forest Cake",
+            "description": "Vanilla sponge with white chocolate and cherry layers",
+            "detailedDescription": "A delicate twist on the classic! Soft vanilla sponge layers with white chocolate cream, cherry compote, and white chocolate curls. Light, elegant, and delicious.",
+            "price": {
+                "half_kg": 450,
+                "one_kg": 850,
+                "two_kg": 1600
+            },
+            "tags": [
+                "vanilla",
+                "white chocolate",
+                "elegant",
+                "birthday"
+            ],
+            "category": "Cakes",
+            "ingredients": [
+                "Vanilla Sponge",
+                "White Chocolate",
+                "Fresh Cream",
+                "Cherries",
+                "Sugar Syrup"
+            ],
+            "allergens": [
+                "Eggs",
+                "Dairy",
+                "Gluten"
+            ],
+            "imageUrl": "/images/cakes/white-forest.jpg",
+            "available": true,
+            "featured": true,
+            "customizable": true,
+            "seo": {
+                "title": "White Forest Cake Coimbatore | Sabu Cakes",
+                "description": "Order elegant White Forest Cake with vanilla sponge and white chocolate cream. Homemade in Coimbatore.",
+                "keywords": [
+                    "white forest cake",
+                    "vanilla cake coimbatore",
+                    "white chocolate cake"
+                ]
+            }
+        },
+        {
+            "id": "4",
+            "slug": "cup-cakes",
+            "name": "Assorted Cup Cakes",
+            "description": "Cute mini cakes in various flavors with buttercream frosting",
+            "detailedDescription": "Perfect for parties and gifts! Choose from chocolate, vanilla, red velvet, and strawberry flavors. Each cupcake is topped with creamy buttercream and colorful decorations.",
+            "price": {
+                "half_kg": 400,
+                "one_kg": 750,
+                "two_kg": 1400
+            },
+            "tags": [
+                "cupcakes",
+                "party",
+                "colorful",
+                "kids"
+            ],
+            "category": "Cupcakes",
+            "ingredients": [
+                "Cake Mix",
+                "Buttercream",
+                "Food Coloring",
+                "Sprinkles",
+                "Vanilla"
+            ],
+            "allergens": [
+                "Eggs",
+                "Dairy",
+                "Gluten"
+            ],
+            "imageUrl": "/images/cakes/cupcakes.jpg",
+            "available": true,
+            "featured": false,
+            "customizable": true,
+            "seo": {
+                "title": "Customizable Cupcakes Coimbatore | Sabu Cakes",
+                "description": "Order colorful homemade cupcakes for parties and celebrations. Multiple flavors available in Coimbatore.",
+                "keywords": [
+                    "cupcakes coimbatore",
+                    "party cupcakes",
+                    "custom cupcakes ondipudur"
+                ]
+            }
+        },
+        {
+            "id": "5",
+            "slug": "tiramisu",
+            "name": "Tiramisu Cake",
+            "description": "Italian coffee-soaked ladyfinger cake with mascarpone cream",
+            "detailedDescription": "An authentic Italian dessert! Delicate ladyfinger biscuits soaked in espresso and layered with rich mascarpone cream, dusted with cocoa powder. A coffee lover's dream.",
+            "price": {
+                "half_kg": 550,
+                "one_kg": 1000,
+                "two_kg": 1900
+            },
+            "tags": [
+                "coffee",
+                "italian",
+                "premium",
+                "special"
+            ],
+            "category": "Specialty",
+            "ingredients": [
+                "Ladyfingers",
+                "Espresso",
+                "Mascarpone",
+                "Cream",
+                "Cocoa Powder",
+                "Sugar"
+            ],
+            "allergens": [
+                "Eggs",
+                "Dairy",
+                "Gluten",
+                "Caffeine"
+            ],
+            "imageUrl": "/images/cakes/tiramisu.jpg",
+            "available": true,
+            "featured": true,
+            "customizable": false,
+            "seo": {
+                "title": "Authentic Tiramisu Cake Coimbatore | Sabu Cakes",
+                "description": "Order authentic Italian Tiramisu with espresso and mascarpone. Homemade in Coimbatore by Sabarika.",
+                "keywords": [
+                    "tiramisu coimbatore",
+                    "coffee cake",
+                    "italian dessert coimbatore"
+                ]
+            }
+        },
+        {
+            "id": "6",
+            "slug": "tres-leches",
+            "name": "Tres Leches Cake",
+            "description": "Latin American milk cake soaked in three milks",
+            "detailedDescription": "A moist, three-milk soaked sponge cake topped with whipped cream. This Latin American classic is incredibly moist and sweet, perfect for milk cake lovers.",
+            "price": {
+                "half_kg": 500,
+                "one_kg": 950,
+                "two_kg": 1800
+            },
+            "tags": [
+                "milk",
+                "sweet",
+                "moist",
+                "special"
+            ],
+            "category": "Specialty",
+            "ingredients": [
+                "Sponge Cake",
+                "Evaporated Milk",
+                "Condensed Milk",
+                "Heavy Cream",
+                "Vanilla",
+                "Whipped Cream"
+            ],
+            "allergens": [
+                "Eggs",
+                "Dairy",
+                "Gluten"
+            ],
+            "imageUrl": "/images/cakes/tres-leches.jpg",
+            "available": true,
+            "featured": false,
+            "customizable": false,
+            "seo": {
+                "title": "Tres Leches Milk Cake Coimbatore | Sabu Cakes",
+                "description": "Order authentic Tres Leches cake soaked in three milks. A sweet, moist Latin American cake in Coimbatore.",
+                "keywords": [
+                    "tres leches coimbatore",
+                    "milk cake",
+                    "three milk cake"
+                ]
+            }
+        },
+        {
+            "id": "7",
+            "slug": "pineapple-cake",
+            "name": "Pineapple Cake",
+            "description": "Fresh pineapple sponge with cream and pineapple chunks",
+            "detailedDescription": "A tropical delight! Light vanilla sponge layered with fresh cream and juicy pineapple chunks. Topped with pineapple slices and cherries for a festive look.",
+            "price": {
+                "half_kg": 400,
+                "one_kg": 750,
+                "two_kg": 1400
+            },
+            "tags": [
+                "fruity",
+                "tropical",
+                "fresh",
+                "birthday"
+            ],
+            "category": "Cakes",
+            "ingredients": [
+                "Vanilla Sponge",
+                "Pineapple",
+                "Fresh Cream",
+                "Cherries",
+                "Sugar Syrup"
+            ],
+            "allergens": [
+                "Eggs",
+                "Dairy",
+                "Gluten"
+            ],
+            "imageUrl": "/images/cakes/pineapple.jpg",
+            "available": true,
+            "featured": false,
+            "customizable": true,
+            "seo": {
+                "title": "Fresh Pineapple Cake Coimbatore | Sabu Cakes",
+                "description": "Order fresh pineapple cake with cream and real pineapple chunks. Homemade in Coimbatore.",
+                "keywords": [
+                    "pineapple cake coimbatore",
+                    "fruit cake",
+                    "birthday cake ondipudur"
+                ]
+            }
+        },
+        {
+            "id": "8",
+            "slug": "rasmalai-cake",
+            "name": "Rasmalai Cake",
+            "description": "Indian fusion cake with rasmalai flavors and saffron",
+            "detailedDescription": "An innovative fusion! Traditional rasmalai flavors in cake form with saffron-infused sponge, creamy layers, and pistachio garnish. A unique Indian dessert experience.",
+            "price": {
+                "half_kg": 550,
+                "one_kg": 1000,
+                "two_kg": 1900
+            },
+            "tags": [
+                "indian",
+                "fusion",
+                "saffron",
+                "premium"
+            ],
+            "category": "Specialty",
+            "ingredients": [
+                "Sponge Cake",
+                "Rabri",
+                "Saffron",
+                "Cardamom",
+                "Pistachios",
+                "Fresh Cream"
+            ],
+            "allergens": [
+                "Eggs",
+                "Dairy",
+                "Gluten",
+                "Nuts"
+            ],
+            "imageUrl": "/images/cakes/rasmalai.jpg",
+            "available": true,
+            "featured": true,
+            "customizable": false,
+            "seo": {
+                "title": "Rasmalai Cake Coimbatore | Sabu Cakes",
+                "description": "Order unique Rasmalai flavored cake with saffron and rabri. Indian fusion dessert in Coimbatore.",
+                "keywords": [
+                    "rasmalai cake coimbatore",
+                    "indian fusion cake",
+                    "saffron cake"
+                ]
+            }
+        },
+        {
+            "id": "9",
+            "slug": "gulab-jamun-cake",
+            "name": "Gulab Jamun Cake",
+            "description": "Rose and cardamom flavored cake with gulab jamun pieces",
+            "detailedDescription": "A celebration of Indian flavors! Rose and cardamom sponge studded with gulab jamun pieces, layered with rose-flavored cream. A festive Indian fusion cake.",
+            "price": {
+                "half_kg": 550,
+                "one_kg": 1000,
+                "two_kg": 1900
+            },
+            "tags": [
+                "indian",
+                "rose",
+                "festive",
+                "premium"
+            ],
+            "category": "Specialty",
+            "ingredients": [
+                "Rose Water",
+                "Cardamom",
+                "Gulab Jamun",
+                "Sponge Cake",
+                "Fresh Cream",
+                "Pistachios"
+            ],
+            "allergens": [
+                "Eggs",
+                "Dairy",
+                "Gluten"
+            ],
+            "imageUrl": "/images/cakes/gulab-jamun.jpg",
+            "available": true,
+            "featured": false,
+            "customizable": false,
+            "seo": {
+                "title": "Gulab Jamun Cake Coimbatore | Sabu Cakes",
+                "description": "Order unique Gulab Jamun flavored cake with rose and cardamom. Indian fusion cake in Coimbatore.",
+                "keywords": [
+                    "gulab jamun cake",
+                    "rose cake coimbatore",
+                    "indian dessert cake"
+                ]
+            }
+        },
+        {
+            "id": "10",
+            "slug": "chocolate-cake",
+            "name": "Classic Chocolate Cake",
+            "description": "Rich, moist chocolate cake with chocolate buttercream",
+            "detailedDescription": "Pure chocolate indulgence! Moist chocolate sponge layered with rich chocolate buttercream frosting. A timeless favorite for all chocolate lovers.",
+            "price": {
+                "half_kg": 400,
+                "one_kg": 750,
+                "two_kg": 1400
+            },
+            "tags": [
+                "chocolate",
+                "classic",
+                "bestseller",
+                "birthday"
+            ],
+            "category": "Cakes",
+            "ingredients": [
+                "Chocolate Sponge",
+                "Cocoa Powder",
+                "Chocolate Buttercream",
+                "Chocolate Chips"
+            ],
+            "allergens": [
+                "Eggs",
+                "Dairy",
+                "Gluten"
+            ],
+            "imageUrl": "/images/cakes/chocolate.jpg",
+            "available": true,
+            "featured": true,
+            "customizable": true,
+            "seo": {
+                "title": "Chocolate Cake Coimbatore | Sabu Cakes",
+                "description": "Order rich chocolate cake with buttercream frosting. Homemade in Coimbatore by Sabarika.",
+                "keywords": [
+                    "chocolate cake coimbatore",
+                    "chocolate birthday cake",
+                    "homemade chocolate cake"
+                ]
+            }
+        },
+        {
+            "id": "11",
+            "slug": "choco-truffle-cake",
+            "name": "Choco Truffle Cake",
+            "description": "Decadent chocolate truffle cake with ganache layers",
+            "detailedDescription": "The ultimate chocolate experience! Multiple layers of chocolate sponge with rich chocolate ganache, covered in chocolate truffle coating. For serious chocolate enthusiasts!",
+            "price": {
+                "half_kg": 500,
+                "one_kg": 950,
+                "two_kg": 1800
+            },
+            "tags": [
+                "chocolate",
+                "truffle",
+                "premium",
+                "rich"
+            ],
+            "category": "Cakes",
+            "ingredients": [
+                "Chocolate Sponge",
+                "Dark Chocolate Ganache",
+                "Truffle Coating",
+                "Chocolate Chips"
+            ],
+            "allergens": [
+                "Eggs",
+                "Dairy",
+                "Gluten"
+            ],
+            "imageUrl": "/images/cakes/truffle.jpg",
+            "available": true,
+            "featured": true,
+            "customizable": true,
+            "seo": {
+                "title": "Chocolate Truffle Cake Coimbatore | Sabu Cakes",
+                "description": "Order decadent chocolate truffle cake with ganache layers. Premium homemade cake in Coimbatore.",
+                "keywords": [
+                    "truffle cake coimbatore",
+                    "chocolate ganache cake",
+                    "premium chocolate cake"
+                ]
+            }
+        },
+        {
+            "id": "12",
+            "slug": "plum-cake",
+            "name": "Traditional Plum Cake",
+            "description": "Fruit-rich Christmas cake with rum-soaked fruits and nuts",
+            "detailedDescription": "A festive classic! Rich fruit cake loaded with rum-soaked dried fruits, nuts, and spices. Aged to perfection for a deep, complex flavor. Perfect for celebrations!",
+            "price": {
+                "half_kg": 600,
+                "one_kg": 1100,
+                "two_kg": 2100
+            },
+            "tags": [
+                "fruity",
+                "christmas",
+                "festive",
+                "premium"
+            ],
+            "category": "Specialty",
+            "ingredients": [
+                "Dried Fruits",
+                "Nuts",
+                "Rum",
+                "Spices",
+                "Butter",
+                "Brown Sugar"
+            ],
+            "allergens": [
+                "Eggs",
+                "Dairy",
+                "Gluten",
+                "Nuts",
+                "Alcohol"
+            ],
+            "imageUrl": "/images/cakes/plum-cake.jpg",
+            "available": true,
+            "featured": false,
+            "customizable": false,
+            "seo": {
+                "title": "Traditional Plum Cake Coimbatore | Sabu Cakes",
+                "description": "Order authentic rum-soaked plum cake with fruits and nuts. Christmas cake in Coimbatore.",
+                "keywords": [
+                    "plum cake coimbatore",
+                    "christmas cake",
+                    "fruit cake coimbatore"
+                ]
+            }
+        },
+        {
+            "id": "13",
+            "slug": "almond-cake",
+            "name": "Almond Cake",
+            "description": "Nutty almond sponge with almond cream and flakes",
+            "detailedDescription": "A nutty delight! Moist almond-flavored sponge layered with almond buttercream and garnished with toasted almond flakes. Rich in flavor and texture.",
+            "price": {
+                "half_kg": 500,
+                "one_kg": 950,
+                "two_kg": 1800
+            },
+            "tags": [
+                "nutty",
+                "almond",
+                "premium",
+                "elegant"
+            ],
+            "category": "Cakes",
+            "ingredients": [
+                "Almond Flour",
+                "Ground Almonds",
+                "Butter",
+                "Almond Extract",
+                "Almond Flakes"
+            ],
+            "allergens": [
+                "Eggs",
+                "Dairy",
+                "Gluten",
+                "Nuts"
+            ],
+            "imageUrl": "/images/cakes/almond.jpg",
+            "available": true,
+            "featured": false,
+            "customizable": true,
+            "seo": {
+                "title": "Almond Cake Coimbatore | Sabu Cakes",
+                "description": "Order nutty almond cake with almond cream and flakes. Homemade premium cake in Coimbatore.",
+                "keywords": [
+                    "almond cake coimbatore",
+                    "nut cake",
+                    "almond flavored cake"
+                ]
+            }
+        },
+        {
+            "id": "14",
+            "slug": "blueberry-cake",
+            "name": "Fresh Blueberry Cake",
+            "description": "Vanilla sponge with fresh blueberries and blueberry cream",
+            "detailedDescription": "Bursting with berries! Light vanilla sponge studded with fresh blueberries, layered with blueberry-infused cream. Topped with more fresh blueberries for a fruity treat.",
+            "price": {
+                "half_kg": 550,
+                "one_kg": 1000,
+                "two_kg": 1900
+            },
+            "tags": [
+                "fruity",
+                "berry",
+                "fresh",
+                "premium"
+            ],
+            "category": "Cakes",
+            "ingredients": [
+                "Fresh Blueberries",
+                "Vanilla Sponge",
+                "Blueberry Compote",
+                "Fresh Cream"
+            ],
+            "allergens": [
+                "Eggs",
+                "Dairy",
+                "Gluten"
+            ],
+            "imageUrl": "/images/cakes/blueberry.jpg",
+            "available": true,
+            "featured": true,
+            "customizable": true,
+            "seo": {
+                "title": "Fresh Blueberry Cake Coimbatore | Sabu Cakes",
+                "description": "Order fresh blueberry cake with real blueberries and cream. Homemade in Coimbatore.",
+                "keywords": [
+                    "blueberry cake coimbatore",
+                    "berry cake",
+                    "fresh fruit cake"
+                ]
+            }
+        },
+        {
+            "id": "15",
+            "slug": "black-currant-cake",
+            "name": "Black Currant Cake",
+            "description": "Vanilla sponge with tangy black currant preserve layers",
+            "detailedDescription": "A tangy-sweet combination! Soft vanilla sponge layered with tangy black currant preserve and fresh cream. The perfect balance of sweet and tart.",
+            "price": {
+                "half_kg": 500,
+                "one_kg": 950,
+                "two_kg": 1800
+            },
+            "tags": [
+                "fruity",
+                "tangy",
+                "unique",
+                "birthday"
+            ],
+            "category": "Cakes",
+            "ingredients": [
+                "Vanilla Sponge",
+                "Black Currant Preserve",
+                "Fresh Cream",
+                "Black Currants"
+            ],
+            "allergens": [
+                "Eggs",
+                "Dairy",
+                "Gluten"
+            ],
+            "imageUrl": "/images/cakes/black-currant.jpg",
+            "available": true,
+            "featured": false,
+            "customizable": true,
+            "seo": {
+                "title": "Black Currant Cake Coimbatore | Sabu Cakes",
+                "description": "Order tangy black currant cake with preserve and cream. Homemade in Coimbatore.",
+                "keywords": [
+                    "black currant cake coimbatore",
+                    "tangy cake",
+                    "fruit preserve cake"
+                ]
+            }
+        },
+        {
+            "id": "16",
+            "slug": "ice-cream-cake",
+            "name": "Ice Cream Cake",
+            "description": "Layered ice cream and cake with various flavors",
+            "detailedDescription": "The best of both worlds! Layers of cake and ice cream in flavors of your choice. Perfect for summer celebrations and kids' parties.",
+            "price": {
+                "half_kg": 600,
+                "one_kg": 1100,
+                "two_kg": 2100
+            },
+            "tags": [
+                "ice cream",
+                "cold",
+                "party",
+                "kids"
+            ],
+            "category": "Specialty",
+            "ingredients": [
+                "Cake Layers",
+                "Ice Cream",
+                "Chocolate Sauce",
+                "Toppings"
+            ],
+            "allergens": [
+                "Eggs",
+                "Dairy",
+                "Gluten"
+            ],
+            "imageUrl": "/images/cakes/ice-cream.jpg",
+            "available": true,
+            "featured": false,
+            "customizable": true,
+            "seo": {
+                "title": "Ice Cream Cake Coimbatore | Sabu Cakes",
+                "description": "Order layered ice cream cake with multiple flavors. Perfect for parties in Coimbatore.",
+                "keywords": [
+                    "ice cream cake coimbatore",
+                    "frozen cake",
+                    "party cake"
+                ]
+            }
+        },
+        {
+            "id": "17",
+            "slug": "fully-ice-cake",
+            "name": "Fully Ice Cake",
+            "description": "100% ice cream cake with no sponge layers",
+            "detailedDescription": "Pure ice cream indulgence! A completely frozen ice cream cake with layers of different ice cream flavors. No cake sponge, just smooth ice cream heaven.",
+            "price": {
+                "half_kg": 650,
+                "one_kg": 1200,
+                "two_kg": 2300
+            },
+            "tags": [
+                "ice cream",
+                "frozen",
+                "premium",
+                "special"
+            ],
+            "category": "Specialty",
+            "ingredients": [
+                "Multiple Ice Cream Flavors",
+                "Chocolate Coating",
+                "Nuts",
+                "Toppings"
+            ],
+            "allergens": [
+                "Dairy",
+                "Nuts"
+            ],
+            "imageUrl": "/images/cakes/fully-ice.jpg",
+            "available": true,
+            "featured": false,
+            "customizable": true,
+            "seo": {
+                "title": "Fully Ice Cream Cake Coimbatore | Sabu Cakes",
+                "description": "Order 100% ice cream cake with no sponge. Pure frozen dessert in Coimbatore.",
+                "keywords": [
+                    "fully ice cake coimbatore",
+                    "100% ice cream cake",
+                    "frozen dessert"
+                ]
+            }
+        },
+        {
+            "id": "18",
+            "slug": "nuts-topping-cake",
+            "name": "Nuts Topping Cake",
+            "description": "Your choice of cake generously topped with mixed nuts",
+            "detailedDescription": "Nutty perfection! Choose your favorite cake flavor and we'll generously top it with a premium mix of cashews, almonds, pistachios, and walnuts. Crunchy and delicious!",
+            "price": {
+                "half_kg": 550,
+                "one_kg": 1000,
+                "two_kg": 1900
+            },
+            "tags": [
+                "nuts",
+                "crunchy",
+                "premium",
+                "customizable"
+            ],
+            "category": "Cakes",
+            "ingredients": [
+                "Cake Base of Choice",
+                "Cashews",
+                "Almonds",
+                "Pistachios",
+                "Walnuts",
+                "Cream"
+            ],
+            "allergens": [
+                "Eggs",
+                "Dairy",
+                "Gluten",
+                "Nuts"
+            ],
+            "imageUrl": "/images/cakes/nuts-topping.jpg",
+            "available": true,
+            "featured": false,
+            "customizable": true,
+            "seo": {
+                "title": "Nuts Topping Cake Coimbatore | Sabu Cakes",
+                "description": "Order customizable cake with premium mixed nuts topping. Homemade in Coimbatore.",
+                "keywords": [
+                    "nuts cake coimbatore",
+                    "dry fruits cake",
+                    "nutty topping cake"
+                ]
+            }
+        }
+    ]
+}
