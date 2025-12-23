@@ -284,7 +284,7 @@ export async function sendEmail(
     switch (type) {
       case 'order':
         emailConfig = {
-          to: process.env.SMTP_USER || '',
+          to: process.env.SMTP_TO || '',
           subject: `🍰 New Cake Order from ${(data as OrderFormData).customerName}`,
           html: generateOrderEmail(data as OrderFormData),
         };
@@ -292,7 +292,7 @@ export async function sendEmail(
 
       case 'custom':
         emailConfig = {
-          to: process.env.SMTP_USER || '',
+          to: process.env.SMTP_TO || '',
           subject: `🎨 Custom Cake Request from ${(data as CustomCakeFormData).customerName}`,
           html: generateCustomCakeEmail(data as CustomCakeFormData),
         };
@@ -300,7 +300,7 @@ export async function sendEmail(
 
       case 'contact':
         emailConfig = {
-          to: process.env.SMTP_USER || '',
+          to: process.env.SMTP_TO || '',
           subject: `📧 Contact: ${(data as ContactFormData).subject}`,
           html: generateContactEmail(data as ContactFormData),
         };

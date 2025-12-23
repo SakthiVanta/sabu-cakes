@@ -1,5 +1,6 @@
 import Link from 'next/link';
-import { Instagram, Facebook, MapPin, Phone, Mail } from 'lucide-react';
+import { MapPin, Phone, Mail } from 'lucide-react';
+import { FaInstagram, FaFacebook } from 'react-icons/fa';
 
 export default function Footer() {
     return (
@@ -22,22 +23,23 @@ export default function Footer() {
                                 href="https://instagram.com/sabucakes"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="p-3 bg-gradient-to-r from-pink-500 to-purple-500 rounded-full hover:scale-110 transition-transform shadow-lg"
+                                className="p-3 bg-gradient-to-r from-[#833ab4] via-[#fd1d1d] to-[#fcb045] rounded-full hover:scale-110 transition-transform shadow-lg"
                                 aria-label="Instagram"
                             >
-                                <Instagram size={24} />
+                                <FaInstagram size={24} />
                             </a>
                             <a
                                 href="https://facebook.com/sabucakes"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="p-3 bg-gradient-to-r from-blue-500 to-blue-600 rounded-full hover:scale-110 transition-transform shadow-lg"
+                                className="p-3 bg-gradient-to-r from-[#1877F2] to-[#0052cc] rounded-full hover:scale-110 transition-transform shadow-lg"
                                 aria-label="Facebook"
                             >
-                                <Facebook size={24} />
+                                <FaFacebook size={24} />
                             </a>
                         </div>
                     </div>
+
 
                     {/* Quick Links */}
                     <div>
