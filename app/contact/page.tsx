@@ -40,12 +40,13 @@ export default function ContactPage() {
                                         </div>
                                         <div className="flex-1">
                                             <h3 className="font-bold text-lg mb-1">Phone</h3>
-                                            <a href="tel:+919345734680" className="text-primary hover:underline">
+                                            <a href="tel:+919003817379" className="text-primary hover:underline">
                                                 +91 90038 17379
                                             </a>
                                             <p className="text-sm text-gray-500 mt-1">Call or WhatsApp anytime!</p>
                                         </div>
                                     </div>
+
 
                                     <div className="flex items-start gap-4">
                                         <div className="p-3 gradient-bg-primary rounded-lg text-white">
@@ -88,8 +89,9 @@ export default function ContactPage() {
                                         label="WhatsApp Now"
                                         variant="whatsapp"
                                         icon="whatsapp"
-                                        className="bg-white text-primary hover:bg-gray-100 border-0 w-full"
+                                        className="bg-[#25D366] text-white hover:bg-[#128C7E] border-0 w-full"
                                     />
+
                                     <CTAButton
                                         label="Order via Form"
                                         variant="primary"
